@@ -43,12 +43,15 @@ do
     for (int i = 1; i < numeros.Count; i++)
         switch (operador)
         {
+            //suma para la calculadora 
             case "+":
                 resultado = suma (resultado, numeros[i]);
                 break;
+            //resta para la calculadora
             case "-":
                 resultado = Resta(resultado, numeros[i]);
                 break;
+            //multiplicacion para la calculadora
             case "*":
                 resultado =  Multiplicacion(resultado, numeros[i]);
                 break;
@@ -87,7 +90,7 @@ do
 } while (seguir == 1);
 Console.WriteLine("Finalizando, Gracias por utilizar la calculadora");
 
-
+//floats para las operaciones
 float Resta(float n1, float n2)
 {
     return n1 -= n2;

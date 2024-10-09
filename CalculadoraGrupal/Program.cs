@@ -44,13 +44,13 @@ do
         switch (operador)
         {
             case "+":
-                resultado = 
+                resultado = suma (resultado, numeros[i]);
                 break;
             case "-":
                 resultado = Resta(resultado, numeros[i]);
                 break;
             case "*":
-                resultado = 
+                resultado =  Multiplicacion(resultado, numeros[i]);
                 break;
 
             case "/":
@@ -61,7 +61,7 @@ do
                 }
                 else
                 {
-                    resultado = Divicion(resultado, numeros[i]);
+                    resultado = Division(resultado, numeros[i]);
                 }
                 break;
 
@@ -87,9 +87,17 @@ do
 } while (seguir == 1);
 Console.WriteLine("Finalizando, Gracias por utilizar la calculadora");
 
+
 float Resta(float n1, float n2)
 {
     return n1 -= n2;
+float suma (float n1, float n2)
+{
+    return n1 += n2;
+} 
+float Multiplicacion(float n1, float n2)
+{
+    return n1 *= n2;
 }
 float Divicion(float n1, float n2)
 {

@@ -43,9 +43,11 @@ do
     for (int i = 1; i < numeros.Count; i++)
         switch (operador)
         {
+            //suma para la calculadora 
             case "+":
                 resultado = suma (resultado, numeros[i]);
                 break;
+            //resta para la calculadora
             case "-":
                 resultado = Resta(resultado, numeros[i]);
                 break;

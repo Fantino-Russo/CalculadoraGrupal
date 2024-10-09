@@ -91,6 +91,7 @@ Console.WriteLine("Finalizando, Gracias por utilizar la calculadora");
 float Resta(float n1, float n2)
 {
     return n1 -= n2;
+}
 float suma (float n1, float n2)
 {
     return n1 += n2;
@@ -99,7 +100,7 @@ float Multiplicacion(float n1, float n2)
 {
     return n1 *= n2;
 }
-float Divicion(float n1, float n2)
+float Division(float n1, float n2)
 {
     return n1 /= n2;
 }

@@ -61,7 +61,7 @@ do
                 }
                 else
                 {
-                    resultado = Divicion(resultado, numeros[i]);
+                    resultado = Division(resultado, numeros[i]);
                 }
                 break;
 

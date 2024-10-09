@@ -65,7 +65,7 @@ do
                 }
                 break;
 
-
+                
             default:
                 Console.WriteLine("La calculadora no posee esa funcion, intente un operdor valido como +, -, *, /");
                 invalido = true;

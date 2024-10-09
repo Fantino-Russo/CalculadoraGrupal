@@ -50,7 +50,7 @@ do
                 resultado = 
                 break;
             case "*":
-                resultado = 
+                resultado =  Multiplicacion(resultado, numeros[i]);
                 break;
 
             case "/":
@@ -91,8 +91,11 @@ float suma (float n1, float n2)
 {
     return n1 += n2;
 } 
-
-float Division(float n1, float n2)
+float Multiplicacion(float n1, float n2)
+{
+    return n1 *= n2;
+}
+float Divicion(float n1, float n2)
 {
     return n1 /= n2;
 }

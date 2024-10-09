@@ -50,7 +50,7 @@ do
                 resultado = 
                 break;
             case "*":
-                resultado = 
+                resultado =  Multiplicacion(resultado, numeros[i]);
                 break;
 
             case "/":
@@ -87,6 +87,10 @@ do
 } while (seguir == 1);
 Console.WriteLine("Finalizando, Gracias por utilizar la calculadora");
 
+float Multiplicacion(float n1, float n2)
+{
+    return n1 *= n2;
+}
 float Divicion(float n1, float n2)
 {
     return n1 /= n2;

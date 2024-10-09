@@ -47,7 +47,7 @@ do
                 resultado = 
                 break;
             case "-":
-                resultado -= numeros[i];
+                resultado = Resta(resultado, numeros[i]);
                 break;
             case "*":
                 resultado = 
